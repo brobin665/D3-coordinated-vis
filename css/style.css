@@ -1,0 +1,113 @@
+body{
+	background-color: #fed98e;
+}
+header{
+	font-family: Proza Libre;
+	
+}
+header h1,p{
+	text-align: center;
+	color:#993404;
+	
+}
+header p{
+	text-align: left;
+	color:#993404;
+	margin-left: 2%;
+	margin-right:2%;
+}
+
+.states {
+    stroke: #FFF;
+    stroke-width: 0.5px;
+    stroke-linecap: round;
+}
+.gratLines{
+		fill:none;
+		stroke:#999;
+		stroke-width: 1px;
+}
+
+.gratBackground{
+	fill: #D5e3ff;
+}
+.map{
+	border: medium solid #993404;
+	margin: 10px 0 0 20px;
+}
+
+.chartTitle {
+    font-family: Proza Libre;
+    font-size: 1em;
+    font-weight: bold;
+	stroke:#993404;
+	fill:#993404;
+}
+.chart {
+    float: right;
+    margin: 7px 20px 0 0;
+	border: medium solid #993404;
+	background-color:lightgray;
+	
+}
+.chartBackground {
+    fill: lightgray;
+	
+}
+
+.chartFrame {
+    fill: none;
+    stroke: #993404;
+    stroke-width: 3px;
+    shape-rendering: crispEdges;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #993404;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: Proza Libre;
+    font-size: 0.8em;
+    fill: #993404;
+}
+.dropdown {
+    position: absolute;
+    top: 190px;
+    left: 40px;
+    z-index: 10;
+    font-family: Proza Libre;
+	color:#993404;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2px;
+    border: 1px solid #999;
+    box-shadow: 2px 2px 4px #999;
+}
+
+option {
+    font-weight: normal;
+}
+.infolabel {
+    position: absolute;
+    height: 50px;
+    min-width: 100px;
+    color: #993404;
+    background-color: #FFF;
+    border: solid thin #993404;
+	border-radius:10px;
+    padding: 5px 10px;
+    top: -75px;
+}
+
+.infolabel h1 {
+    margin: 0 20px 0 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1em;
+}
+
